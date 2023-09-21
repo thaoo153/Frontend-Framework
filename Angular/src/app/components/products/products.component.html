@@ -1,6 +1,7 @@
+{{ 1 | changeNumberToText }}
 <div class="container">
     <h2>Quản lý sản phẩm</h2>
-    <input type="text" [(ngModel)]="textSearch" class="border" />
+    <input type="text" [(ngModel)]="searchText" />
     <table class="table table-bordered">
         <thead>
             <th>#</th>
@@ -13,7 +14,7 @@
         </thead>
         <tbody>
             <tr *ngFor="
-                    let product of products | searchBox : textSearch;
+                    let product of products | searchBox : searchText;
                     index as i
                 ">
                 <td>{{ i + 1 }}</td>
@@ -30,9 +31,12 @@
                     <button class="btn btn-danger" (click)="removeItem(product.id!)">
                         Xóa
                     </button>
-                    <button class="btn btn-primary ms-2">Sửa</button>
+                    <button class="btn btn-primary ms-2" (click)="editProduct(product)">
+                        Sửa
+                    </button>
                 </td>
             </tr>
         </tbody>
     </table>
 </div>
+<app-product-detail [product]="currentProduct" (onRemove)="onHandlerRemove($event)" />

@@ -9,6 +9,8 @@ import { SearchBoxPipe } from './search-box.pipe';
 import { ChangeNumberToTextPipe } from './change-number-to-text.pipe';
 import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 import { HttpClientModule } from '@angular/common/http';
+import { NotFoundComponent } from './components/not-found/not-found.component';
+import { HomeComponent } from './components/page/home/home.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { HttpClientModule } from '@angular/common/http';
     ProductsComponent,
     SearchBoxPipe,
     ChangeNumberToTextPipe,
-    ProductDetailComponent
+    ProductDetailComponent,
+    NotFoundComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

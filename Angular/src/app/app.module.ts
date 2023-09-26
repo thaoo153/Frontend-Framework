@@ -11,6 +11,8 @@ import { ProductDetailComponent } from './components/product-detail/product-deta
 import { HttpClientModule } from '@angular/common/http';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { HomeComponent } from './components/page/home/home.component';
+import { ProComponent } from './components/admin/pro/pro.component';
+import { ProductAddComponent } from './components/product-add/product-add.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { HomeComponent } from './components/page/home/home.component';
     ChangeNumberToTextPipe,
     ProductDetailComponent,
     NotFoundComponent,
-    HomeComponent
+    HomeComponent,
+    ProComponent,
+    ProductAddComponent,
   ],
   imports: [
     BrowserModule,

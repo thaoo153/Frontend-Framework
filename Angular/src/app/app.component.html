@@ -1,26 +1,29 @@
-<!-- <ul>
-    <li><a routerLink="">Trang chủ</a></li>
-    <li><a routerLink="/products">Sản phẩm</a></li>
-    <li><a routerLink="/contact">Liên hệ</a></li>
-</ul> -->
-
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" routerLink="">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" routerLink="/products">Products</a>
-                </li>
-            </ul>
+<style>
+    .white {
+        color: white;
+    }
+</style>
+<div class="container">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid my-2" style="background-color: black; padding: 10px;">
+            <a class="navbar-brand white" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" routerLink="/" style="color: white;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link white" routerLink="/products">Products</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
+</div>
+
+
 <router-outlet />

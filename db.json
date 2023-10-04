@@ -1,0 +1,30 @@
+{
+  "products": [
+    {
+      "name": "Chó Husky",
+      "price": "122",
+      "desc": "ahiahi",
+      "id": 1
+    },
+    {
+      "name": "Chó Husky",
+      "price": "122",
+      "desc": "ahiahi",
+      "id": 2
+    },
+    {
+      "name": "bedau153",
+      "price": "12000000000",
+      "desc": "ahihihi",
+      "imageURL": "",
+      "id": 3
+    },
+    {
+      "name": "Thao Pham",
+      "price": "0q2q22",
+      "desc": "ahihihi",
+      "imageURL": "",
+      "id": 4
+    }
+  ]
+}

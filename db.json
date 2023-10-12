@@ -1,30 +1,26 @@
 {
   "products": [
     {
-      "name": "Chó Husky",
-      "price": "122",
-      "desc": "ahiahi",
-      "id": 1
+      "name": "Chó Husky màu đen",
+      "price": "4000000000",
+      "desc": "chó",
+      "id": 1,
+      "image": "https://picsum.photos/120/100"
     },
     {
-      "name": "Chó Husky",
-      "price": "122",
-      "desc": "ahiahi",
-      "id": 2
-    },
-    {
-      "name": "bedau153",
-      "price": "12000000000",
-      "desc": "ahihihi",
+      "name": "Mèo",
+      "price": "2000000",
+      "desc": "Mèo anh lông ngắn",
       "imageURL": "",
-      "id": 3
+      "id": 4,
+      "image": "https://picsum.photos/120"
     },
     {
-      "name": "Thao Pham",
-      "price": "0q2q22",
-      "desc": "ahihihi",
-      "imageURL": "",
-      "id": 4
+      "name": "Điện thoại",
+      "price": "24000000",
+      "desc": "Ip 11",
+      "image": "https://picsum.photos/150/100",
+      "id": 5
     }
   ]
 }

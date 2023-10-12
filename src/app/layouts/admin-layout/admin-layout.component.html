@@ -15,7 +15,7 @@
                     <ul class="nav flex-column">
                         <li class="nav-item">
                             <a class="nav-link d-flex align-items-center gap-2 active sz18" aria-current="page"
-                                routerLink="/admin" style="font-size: 16px;">
+                                routerLink="/admin/dashboard" style="font-size: 16px;">
                                 <svg class="bi">
                                     <use xlink:href="#house-fill"></use>
                                 </svg>
@@ -46,7 +46,7 @@
 
                     <ul class="nav flex-column mb-auto">
                         <li class="nav-item">
-                            <a class="nav-link d-flex align-items-center gap-2" href="#">
+                            <a class="nav-link d-flex align-items-center gap-2" href="#" style="font-size: 16px;">
                                 <svg class="bi">
                                     <use xlink:href="#gear-wide-connected"></use>
                                 </svg>
@@ -54,7 +54,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link d-flex align-items-center gap-2" href="#">
+                            <a class="nav-link d-flex align-items-center gap-2" href="#" style="font-size: 16px;">
                                 <svg class="bi">
                                     <use xlink:href="#door-closed"></use>
                                 </svg>
@@ -67,24 +67,6 @@
         </div>
 
         <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-            <div
-                class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                <h1 class="h2">Dashboard</h1>
-                <div class="btn-toolbar mb-2 mb-md-0">
-                    <div class="btn-group me-2">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
-                    </div>
-                    <button type="button"
-                        class="btn btn-sm btn-outline-secondary dropdown-toggle d-flex align-items-center gap-1">
-                        <svg class="bi">
-                            <use xlink:href="#calendar3"></use>
-                        </svg>
-                        This week
-                    </button>
-                </div>
-            </div>
-
 
             <router-outlet />
 

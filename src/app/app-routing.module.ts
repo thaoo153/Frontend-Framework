@@ -7,6 +7,7 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { ProductManagementComponent } from './pages/admin/product-management/product-management.component';
 import { ProductFormComponent } from './components/product-form/product-form.component';
+import { DashboardComponent } from './pages/admin/dashboard/dashboard.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,7 @@ const routes: Routes = [
   },
   {
     path: "admin", component: AdminLayoutComponent, children: [
+      { path: "dashboard", component: DashboardComponent },
       { path: "product", component: ProductManagementComponent },
       { path: "product/add", component: ProductFormComponent },
       { path: "product/:id/update", component: ProductFormComponent },
